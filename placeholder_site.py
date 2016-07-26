@@ -55,7 +55,7 @@ class ImageForm(forms.Form):
 
     Forms can be used to validate requests.
     """
-    
+
     height = forms.IntegerField(min_value=1, max_value=2000)
     width = forms.IntegerField(min_value=1, max_value=2000)
 

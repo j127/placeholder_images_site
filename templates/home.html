@@ -1,5 +1,5 @@
 {% load staticfiles %}
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -13,9 +13,9 @@
     <pre>&lt;img src="{{ example }}"&gt;</pre>
 
     <ul>
-        <li><img src="{% url 'placeholder' width=50 height=50 %}"></li>
-        <li><img src="{% url 'placeholder' width=150 height=50 %}"></li>
-        <li><img src="{% url 'placeholder' width=50 height=150 %}"></li>
+        <li><a href="{% url 'placeholder' width=50 height=50 %}"><img src="{% url 'placeholder' width=50 height=50 %}"></a></li>
+        <li><a href="{% url 'placeholder' width=150 height=50 %}"><img src="{% url 'placeholder' width=150 height=50 %}"></a></li>
+        <li><a href="{% url 'placeholder' width=50 height=150 %}"><img src="{% url 'placeholder' width=50 height=150 %}"></a></li>
     </ul>
 </body>
 </html>
