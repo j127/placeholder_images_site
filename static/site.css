@@ -1,0 +1,15 @@
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+ul {
+    list-type: none;
+}
+li {
+    display: inline-block;
+}
+
+pre {
+    font-size: 1.5em;
+    color: #6a6a6a;
+}
